@@ -1,5 +1,5 @@
-<?php require('lib/print.php');?>
-<?php require('view/top.php');?>
+<?php require_once('lib/print.php');?>
+<?php require_once('view/top.php');?>
   <a href="create.php">create</a>
   <?php if(isset($_GET['id'])) { ?>
     <a href="update.php?id=<?=$_GET['id']?>">update</a>
@@ -13,9 +13,9 @@
   <?php
   print_title();
   ?>
-</h2>
-  <?php
-  print_description();
-  ?>
+  </h2>
+    <?php
+    print_description();
+    ?>
 </body>
 </html>

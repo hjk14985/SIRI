@@ -1,0 +1,6 @@
+XSS
+<script>
+location.href="https://naver.com"
+</script>
+
+anothor way strip_tags

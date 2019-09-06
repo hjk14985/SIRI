@@ -1,5 +1,5 @@
-<?php require('lib/print.php');?>
-<?php require('view/top.php');?>
+<?php require_once('lib/print.php');?>
+<?php require_once('view/top.php');?>
   <a href="create.php">create</a>
   <form action="create_process.php" method="post">
     <p>
