@@ -32,7 +32,7 @@
   print(sum2(2,4));
   //mail('hjk14985@naver.com', sum2(2,4));
   //upload('egoing.net', sum2(2,4));
-  file_put_contents('result.txt', sum2(2,4));
+  file_put_contents('result2.txt', sum2(4,4));
   ?>
 </body>
 </html>
